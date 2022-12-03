@@ -1,3 +1,4 @@
+package librerias;
 public class Varias {
 
     public static boolean esCapicua(long x) {
