@@ -59,8 +59,8 @@ public class Varias {
     } else {
       int n = 0;
       while (x > 0) {
-        x = x / 10; // se le quita un dígito a x
-        n++; // incrementa la cuenta de dígitos
+        x = x / 10; 
+        n++; 
       }
       return n;
     }
@@ -129,7 +129,7 @@ public class Varias {
   }
 
   public static long quitaPorDelante(long x, int n) {
-    x = pegaPorDetras(x, 1); // "cierra" el número por si acaso termina en 0
+    x = pegaPorDetras(x, 1);
     x = voltea(quitaPorDetras(voltea(x), n));
     x = quitaPorDetras(x, 1);
     return x;
